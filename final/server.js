@@ -9,7 +9,7 @@ const port = process.env.Port || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/yourDB', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://doadmin:r7219gPu350peCw4@close-encounters-1a0e761d.mongo.ondigitalocean.com/admin?authSource=admin&tls=true', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const funkoSchema = new mongoose.Schema({
   imageUrl: String,
