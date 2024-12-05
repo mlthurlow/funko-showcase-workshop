@@ -30,4 +30,8 @@
 
 ### Workshop Lab Guide
 
-This guide will walk you through setting up a cloud-deployed application using DigitalOcean. By the end of the workshop, you will have a functional application hosted on the cloud, complete with a database, storage, and scaling features.
+The lab guide is broken up into various markdown files that will guide you through the process. Each file will have a series of steps that you will need to follow to complete the lab. If you have any questions, please feel free to ask the presenters.
+
+To start the lab, open the `SETUP.md` file and follow the instructions.
+
+We hope you enjoy the workshop!
