@@ -9,6 +9,7 @@ const port = process.env.PORT || 3001;
 app.use(cors({ origin: 'http://localhost:3000' }));
 
 app.use(bodyParser.json());
+
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const funkoSchema = new mongoose.Schema({
