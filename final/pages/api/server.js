@@ -10,10 +10,8 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 
 app.use(bodyParser.json());
 
-mongoose.connect(
-  'mongodb+srv://doadmin:r7219gPu350peCw4@close-encounters-1a0e761d.mongo.ondigitalocean.com/admin?authSource=admin&tls=true',
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 const funkoSchema = new mongoose.Schema({
   imageUrl: String,
