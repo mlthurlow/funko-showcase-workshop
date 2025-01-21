@@ -39,7 +39,7 @@ const AddFunkoButton = ({ setFunkos }: { setFunkos: React.Dispatch<React.SetStat
         Add Funko!
       </Button>
       <TextField
-        margin=""
+        margin="normal"
         name=""
         label=""
         type=""
@@ -48,10 +48,10 @@ const AddFunkoButton = ({ setFunkos }: { setFunkos: React.Dispatch<React.SetStat
         onChange={handleInputChange}
       />
       <DialogActions>
-        <Button onClick={handleClose} color="">
+        <Button onClick={handleClose} color="#ef5350">
           Cancel
         </Button>
-        <Button onClick={handleSubmit} color="">
+        <Button onClick={handleSubmit} color="#0d47a1">
           Submit
         </Button>
       </DialogActions>
