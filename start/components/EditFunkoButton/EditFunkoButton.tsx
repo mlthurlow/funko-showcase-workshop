@@ -50,11 +50,26 @@ const EditFunkoButton = ({ setFunkos, funko }: { setFunkos: React.Dispatch<React
         <DialogContent>
 
           {/* Add Text Fields here */}
+          <TextField
+            margin=""
+            name=""
+            label=""
+            type=""
+            fullWidth
+            value={ }
+            onChange={handleInputChange}
+          />
 
         </DialogContent>
         <DialogActions>
 
           {/* Add Buttons here */}
+          <Button onClick={handleClose} color="">
+            Cancel
+          </Button>
+          <Button onClick={handleEdit} color="">
+            Submit
+          </Button>
 
         </DialogActions>
       </Dialog>
