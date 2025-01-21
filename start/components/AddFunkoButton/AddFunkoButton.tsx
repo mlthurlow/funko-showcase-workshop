@@ -42,7 +42,7 @@ const AddFunkoButton = ({ setFunkos }: { setFunkos: React.Dispatch<React.SetStat
         margin="normal"
         name=""
         label=""
-        type=""
+        type="normal"
         fullWidth
         value={ }
         onChange={handleInputChange}
