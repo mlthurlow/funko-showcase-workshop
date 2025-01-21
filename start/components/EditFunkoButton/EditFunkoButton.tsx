@@ -51,10 +51,10 @@ const EditFunkoButton = ({ setFunkos, funko }: { setFunkos: React.Dispatch<React
 
           {/* Add Text Fields here */}
           <TextField
-            margin=""
+            margin="normal"
             name=""
             label=""
-            type=""
+            type="normal"
             fullWidth
             value={ }
             onChange={handleInputChange}
