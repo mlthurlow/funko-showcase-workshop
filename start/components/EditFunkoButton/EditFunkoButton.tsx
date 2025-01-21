@@ -51,12 +51,49 @@ const EditFunkoButton = ({ setFunkos, funko }: { setFunkos: React.Dispatch<React
 
           {/* Add Text Fields here */}
           <TextField
-            margin="normal"
-            name=""
-            label=""
-            type="normal"
+            autoFocus
+            margin="dense"
+            name="imageUrl"
+            label="Image URL"
+            type="url"
             fullWidth
-            value={ }
+            value={formValues.imageUrl}
+            onChange={handleInputChange}
+          />
+          <TextField
+            margin="dense"
+            name="source"
+            label="TV/Movie source"
+            type="text"
+            fullWidth
+            value={formValues.source}
+            onChange={handleInputChange}
+          />
+          <TextField
+            margin="dense"
+            name="character"
+            label="Character"
+            type="text"
+            fullWidth
+            value={formValues.character}
+            onChange={handleInputChange}
+          />
+          <TextField
+            margin="dense"
+            name="yearReleased"
+            label="Year Released"
+            type="number"
+            fullWidth
+            value={formValues.yearReleased}
+            onChange={handleInputChange}
+          />
+          <TextField
+            margin="dense"
+            name="numberInLine"
+            label="Number In Line"
+            type="number"
+            fullWidth
+            value={formValues.numberInLine}
             onChange={handleInputChange}
           />
 
