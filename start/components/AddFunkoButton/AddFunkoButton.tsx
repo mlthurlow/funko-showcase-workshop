@@ -33,8 +33,6 @@ const AddFunkoButton = ({ setFunkos }: { setFunkos: React.Dispatch<React.SetStat
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px' }}>
-
-      {/* Code to create Add Button functionality goes here */}
       <Button variant="contained" color="secondary" onClick={handleClickOpen}>
         Add Funko!
       </Button>
@@ -97,7 +95,6 @@ const AddFunkoButton = ({ setFunkos }: { setFunkos: React.Dispatch<React.SetStat
           </Button>
         </DialogActions>
       </Dialog>
-
     </div>
   );
 };
